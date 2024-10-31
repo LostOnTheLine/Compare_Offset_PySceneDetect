@@ -7,7 +7,7 @@
 
 This script is designed to align 2 video files. It works well on 2 files of the same video with different languages, but should work just as well on any videos where the scene transitions are the same, 2 cameras recording the same stage play, High Resolution & Low Resolution versions of the same movie or TV Show, etc. 
 
-This script has a function to detect which file is *"ahead"* but does not seem to work correctly. Hopefully it will be fixed in future updates, but as if now it will show a filename, but running on the same files multiple times will return both results.
+This script has a function to detect which file is *"ahead"* but does not seem to work correctly. Hopefully it will be fixed in future updates, but as of now it will show a filename, but running on the same files multiple times will return both results.
 
 I run this on a Windows 11 system, I can make no guarantees that it will work on Linux, but assuming python & PySceneDetect are installed it should work without any major changes.
 
