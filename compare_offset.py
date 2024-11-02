@@ -88,7 +88,7 @@ def main():
         print(f"                    {offset:+.3f}    ({count})  -  {percentage:.1f}%")
 
     # Additional report line
-    print("------ (Sub) Ahead = (Audio +) | Dub Ahead = (Audio -) ------")
+    print("------ (Sub) Ahead = (Audio -) | Dub Ahead = (Audio +) ------")
 
     # Pause before closing
     input("Press Enter to exit...")
