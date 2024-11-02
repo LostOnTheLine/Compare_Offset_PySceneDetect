@@ -39,7 +39,7 @@
       - <sub><sup>If altering the ***other*** file you would need to add the offset to this file, making that file start that much later</sub></sup>
     - `Other Possible Offsets:` These are the 3 next most likely offsets displayed as 
       - <sub><sup>`{offset}`  ({Number of matching scenes}) - {Confidence Percentage}</sub></sup>
-    - `Sub) Ahead = (Audio -) | Dub Ahead = (Audio +)` 
+    - `(Sub) Ahead = (Audio -) | Dub Ahead = (Audio +)` 
       - <sub><sup><sub><sup>This is a note as my normal use of this script is align align Hardcoded Subtitled videos with dubbed audio. This tells me which direction to offset the audio track in MKVtoolNix. The same applies to other videos; (Sub) is Video File, (Dub) is Audio File</sub></sup></sub></sup>
 5) If combining the files using `MKVtoolNix`:
     1) Add the 2 files
