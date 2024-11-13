@@ -44,7 +44,7 @@
 5) If combining the files using `MKVtoolNix`:
     1) Add the 2 files
     2) Turn off the video for the file you want the audio from & the audio for the one you want the video from
-    3) Select the audio file
+    3) Select the audio track
        - Under `[Properties]` > `[Timestamps & Default Duration]` select `Delay (in ms):` & enter the offset without the decimal. In the example it would be `-42` Determine the -/+ by the file that is ahead.
 
 
