@@ -1,3 +1,27 @@
+# Update
+So it seems that shortly after I posted this one of the places I designed this to work for, specifically because I want to watch Anime with the burned subtitles & the dubbed audio, has now started doing various things to make it no longer work for that.  
+One of my biggest frustrations with the Dubbed Anime Market is that The Dubbed videos usually lack the translation of text on-screen or, if they do have it, it is never as nice looking as the fan-made versions.  
+Plus the fact that I personally like being able to see the direct subtitles on the screen when I watch rather than just text versions of the Dubbed Audio. 
+
+This is important specifically when the Dub changes things that sometimes do not actually mean the same thing. This was more of a problem with older Anime but still happens today. I could give a dozen examples but an example of a recent one is:
+> `I Got a Cheat Skill in Another World and Became Unrivaled in the Real World, Too (2023)` S01E01 @ 13:39
+>
+> He has just finished testing out, literally swinging once, each overpowered weapon he has inherited.
+>
+> Sub: {TEXT ON SCREEN} `All prerequisites have been met. All Martial arts skills have been combined. "True Martial Arts 1" Acquired.`  
+Sub: {TEXT ON SCREEN} `True Martial Arts: 	 A mental state only accessible to those who have studied all weapons & forms of hand-to-hand combat. It allows for the deft use of all weapons & forms of hand-to-hand combat.`  
+Sub: ' None of this makes any sense.  "True Martial Arts"? Really!?,  I can't even really use them!,  But the status display changed regardless.  The huge number of weapon & fighting skills disappeared,  & turned into something called "True Martial Arts" '
+> 
+> Dub: {TEXT ON SCREEN} No Translation into English  
+Dub: {TEXT ON SCREEN} No Translation into English  
+Dub: ' None of this makes any sense  True Martial Arts?  I can't even use them!  Despite never raising a fist, the status display changed.  The huge number of weapon & fighting skills disappeared. Guess I'm focusing on close combat now. '
+
+With just the Dub translation you will think he lied every time he uses his weapons, which is quite often. This is just one example, & one I think is pretty bad, but the same problem happens often.
+
+I have developed ways to make it still work, but they are much more complicated & cannot be done with a simple script anymore, as they require analyzing framerates, compressing audio streams, a generally more extreme measures, & require a third-party, non-open-source application.  
+If you are interested feel free to PM me for the information, but I will no longer be updating this repository unfortunately.
+
+
 # Compare_Offset_PySceneDetect
  A script using Python & PySceneDetect results to detect alignment points for 2 video files.
 
@@ -17,15 +41,15 @@
     1. D:\path\to\file\filename1\filename1-Scenes.csv
     2. D:\path\to\file\filename1\filename2-Scenes.csv
     
-    Best sync offset (in seconds):            -0.042
+    Best sync offset (in seconds):            -0.057
     Number of matching scenes at this offset:       (247)
     Confidence percentage:                     65.3%
 
     File Ahead:  D:\path\to\file\filename1\filename2-Scenes.csv
     Other Possible Offsets:
-                        -0.041    (127)  -  33.6%
-                        +1.418    (19)  -  5.0%
-                        -3.003    (15)  -  4.0%
+                        -0.056    (127)  -  33.6%
+                        +1.438    (19)  -  5.0%
+                        -4.004    (15)  -  4.0%
     ------ (Sub) Ahead = (Audio -) | Dub Ahead = (Audio +) ------
     Press Enter to exit...
 4) The Results are
@@ -45,7 +69,7 @@
     1) Add the 2 files
     2) Turn off the video for the file you want the audio from & the audio for the one you want the video from
     3) Select the audio track
-       - Under `[Properties]` > `[Timestamps & Default Duration]` select `Delay (in ms):` & enter the offset without the decimal. In the example it would be `-42` Determine the -/+ by the file that is ahead.
+       - Under `[Properties]` > `[Timestamps & Default Duration]` select `Delay (in ms):` & enter the offset without the decimal. In the example it would be `-57` Determine the -/+ by the file that is ahead.
 
 
 This script is designed to align 2 video files. It works well on 2 files of the same video with different languages, but should work just as well on any videos where the scene transitions are the same, 2 cameras recording the same stage play, High Resolution & Low Resolution versions of the same movie or TV Show, etc. 
